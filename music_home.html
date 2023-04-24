@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.84.0">
+  <title>Home</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+  <link href="cover.css" rel="stylesheet">
+</head>
+
+<body class="d-flex h-100 text-center text-white">
+
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <div>
+        <h3 class="float-md-start mb-0"><a class="attributes" href="home.html">Alex Marrero</a></h3>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+          <a class="nav-link active" aria-current="page" href="music_home.html">Home</a>
+          <a class="nav-link" href="music_projects.html">Projects</a>
+          <a class="nav-link" href="music_lessons.html">Lessons</a>
+          <a class="nav-link" href="music_shows.html">Shows</a>
+          <a class="nav-link" href="music_videos.html">Videos</a>
+          <a class="nav-link" href="music_contact.html">Contact</a>
+        </nav>
+        <!-- <nav class="navbar navbar-expand-md">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link scroll-link" href="{{ url_for('home') }}">
+                  <img src=../static/button_images/home1.png width="150px" height="37.5px"
+                    onmouseover="this.src='../static/button_images/home2.png';"
+                    onmouseout="this.src='../static/button_images/home1.png';" />
+                  <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link scroll-link" href="{{ url_for('myaccount') }}">
+                  <img src=../static/button_images/myaccount1.png width="150px" height="37.5px"
+                    onmouseover="this.src='../static/button_images/myaccount2.png';"
+                    onmouseout="this.src='../static/button_images/myaccount1.png';" />
+                </a>
+              <li class="nav-item active">
+                <a class="nav-link scroll-link" href="music_videos.html">Videos</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link scroll-link" href="music_contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav> -->
+      </div>
+    </header>
+
+
+    <main class="px-3">
+      <!-- <div class="music_photos">
+      <img class="rotateimgneg5 music_photo" src="alex_guitar.jpg" width="80%">
+      <img class="music_photo" src="AlexPointing.jpeg" width="80%">
+      <img class="rotateimg5 music_photo" src="alex_percussion.jpg" width="80%">
+    </div> -->
+
+
+      <!-- Slideshow container -->
+      <section class="slideshow-section">
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides">
+            <img class="music_photo" src="alex_guitar.jpg" width="80%">
+          </div>
+
+          <div class="mySlides">
+            <img class="music_photo" src="AlexPointing.jpeg" width="80%">
+          </div>
+
+          <div class="mySlides">
+            <img class="music_photo" src="alex_percussion.jpg" width="80%">
+          </div>
+
+          <!-- Next and previous buttons -->
+          <div style="text-align:left">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
+
+
+
+      <p style="text-align:left" class="lead">Alex Marrero is an Austin, TX based musician, songwriter, producer,
+        teacher,
+        and bi-lingual voice over talent. Born in Mexico City to Cuban parents, Alex
+        got his professional start playing clubs in Mexico at the age of 15 and has
+        continued his musical evolution since moving to Austin in 1994.</p>
+      <p style="text-align:left" class="lead">Alex is a respected vocalist, multi-instrumentalist and sought after
+        sideman in
+        various genres. Alex is known for comfortably inhabiting the role of drummer,
+        percussionist, guitar player, background singer, writer or producer. As a lead
+        singer he possesses a unique bravado which has garnered him a reputation as an
+        engaging and charismatic front man. His voice and showmanship present in
+        “Brownout Presents: Brown Sabbath” earned him critical & public acclaim as
+        well as high praise from Ozzy Osbourne himself.</p>
+      <p style="text-align:left" class="lead"><i>Alex has performed and collaborated with:
+          <span class="performed-with">Grupo Fantasma, Brownout, Bob Schneider, Bo
+            Deans, Los Lobos, Coyle Girelli, Carrie Rodriguez, Charanga Cakewalk, Gary
+            Clark Jr, Darden Smith, Gina Chavez, Greyhounds, Papa Mali, Kalu James,
+            Topaz & many more.</span></i></p>
+
+    </main>
+    <br>
+    <div>
+      <a href="https://www.instagram.com/musicmarrero/">
+        <img class="social" src="instagram.png" class="center"></a>
+      <a href="https://www.facebook.com/al.mar.100">
+        <img class="social" src="facebook.png" class="center"></a>
+    </div>
+    <br><br>
+
+    <footer class="mt-auto text-white-50">
+
+    </footer>
+  </div>
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+</body>
+
+</html>
