@@ -106,6 +106,9 @@ a:hover {
   .slideshow-section {
     height: 500px;
   }
+  .slideshow-container {
+    margin-top: 45px;
+  }
 }
 @media (max-width: 767px) {
   .social {
@@ -114,6 +117,9 @@ a:hover {
   iframe {
     width: 100% !important;
   }
+  .slideshow-container {
+    margin: auto;
+  }
 }
 
 @media (max-width: 725px) {
@@ -121,18 +127,13 @@ a:hover {
   .slideshow-section {
     height: 300px;
   }
+
 }
 
 .music_photos {
   width: 40%;
   display: flex;
 }
-
-/* .music_photo {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  align-self: center;
-} */
 
 .music_photo {
   margin-top: 30px;
@@ -166,7 +167,6 @@ a:hover {
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
 }
 
 /* Hide the images by default */
