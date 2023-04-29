@@ -120,6 +120,9 @@ a:hover {
   .slideshow-container {
     margin: auto;
   }
+  .prev, .next {
+    top: 125px !important;
+  }
 }
 
 @media (max-width: 725px) {
@@ -127,7 +130,6 @@ a:hover {
   .slideshow-section {
     height: 300px;
   }
-
 }
 
 .music_photos {
@@ -178,7 +180,7 @@ a:hover {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 175px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
